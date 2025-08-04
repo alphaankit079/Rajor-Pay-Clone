@@ -1,13 +1,110 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <title>Rajor Pay</title>
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline bg-amber-950">
-    Hello world!
-  </h1>
+
+  <!-- Nav Bar -->
+  <nav class="bg-deep-blue">
+    <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+
+      <!-- Logo -->
+
+      <a href="#" class="cursor-pointer py-7 pr-7">
+        <img src="./images/logo.svg" alt="" height="30px" width="125px">
+      </a>
+
+      <ul class="flex space-x-6">
+        <li
+          class="text-white font-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group">
+          <a href="#">Payment</a>
+          <div class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200">
+          </div>
+        </li>
+
+        <li
+          class="text-white font-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group">
+          <a href="#">Banking</a>
+          <div class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200">
+          </div>
+        </li>
+
+        <li
+          class="text-white font-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group">
+          <a href="#">Corporate Card</a>
+          <div class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200">
+          </div>
+        </li>
+
+        <li
+          class="text-white font-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group">
+          <a href="#">Payroll</a>
+          <div class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200">
+          </div>
+        </li>
+
+        <li
+          class="text-white font-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group">
+          <a href="#">Resource</a>
+          <div class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200">
+          </div>
+        </li>
+
+        <li
+          class="text-white font-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group">
+          <a href="#">Support</a>
+          <div class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200">
+          </div>
+        </li>
+
+        <li
+          class="text-white font-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group">
+          <a href="#">Pricing</a>
+          <div class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200">
+          </div>
+        </li>
+
+      </ul>
+
+      <div class="flex space-x-6">
+        <img src="/images/india-flag.svg" alt="" width="28px" height="20px">
+        <button class="py-3 px-5 font-mullish text-white border-light-blue border rounded-sm text-sm font-bold">Log in</button>
+        <button class="py-3 px-4 font-mullish text-sm bg-white text-light-blue300 border rounded-sm transition-all duration-200 hover:text-light-blue500">Sign Up</button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+
+  <section class="relative bg-deep-blue">
+    <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+      <!-- left part -->
+       <div class="space-y-8">
+
+        <h1 class="font-mullish font-bold text-white text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
+        <div class="w-6 h-1 bg-green-light"></div>
+        <p class="font-mullish text-white opacity-70 text-[18px] leading-7">Accept payments form coustomer, Automate payouts to vendors & employees. Never run out of working capital</p>
+        <button class="bg-light-blue text-white py-[14px] px-[18px] font-mullish rounded-md font-bold hover:bg-light-blue500 transition-all duration-200">Sign Up Now</button>
+
+       </div>
+       <!-- right part -->
+        <img src="/images/hero-illustration.jpg" alt="" class="max-w-[680px]">
+    </div>
+
+    <!-- Shape Part -->
+     <div class="w-[100%] absolute left-0 right-0">
+      <img src="/images/hero-shape.svg" alt="" class="w-full object-fill">
+     </div>
+
+  </section>
+  
 </body>
+
 </html>
